@@ -2317,6 +2317,26 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		.image.leftsmall, .image.rightsmall {
+			max-width: 20%;
+		}
+
+			.image.leftsmall img, .image.rightsmall img {
+				width: 100%;
+			}
+
+		.image.leftsmall {
+			float: leftsmall;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.rightsmall {
+			float: rightsmall;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
